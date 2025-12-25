@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.txt
+*.log
+moosic_app/build/
+moosic_app/.dart_tool/
+moosic_app/.flutter-plugins
+moosic_app/.flutter-plugins-dependencies
+moosic_app/.metadata
+moosic_app/pubspec.lock
+moosic_app/.idea/

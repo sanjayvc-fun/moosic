@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
-import 'package:moosic_app/main.dart';
-import 'package:moosic_app/services/api_service.dart';
+import 'package:moosic/main.dart';
+import 'package:moosic/services/api_service.dart';
 
 // Mock ApiService to avoid network calls during tests
 class MockApiService extends ApiService {

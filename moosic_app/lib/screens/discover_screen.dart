@@ -69,17 +69,6 @@ class _DiscoverScreenState extends State<DiscoverScreen> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      // Header with Greeting
-                      Center(
-                        child: ClipRRect(
-                          borderRadius: BorderRadius.circular(20),
-                          child: Image.asset(
-                            'assets/logo.jpg',
-                            height: 180,
-                            fit: BoxFit.contain,
-                          ),
-                        ),
-                      ),
                       const SizedBox(height: 20),
                       Padding(
                         padding: const EdgeInsets.symmetric(vertical: 10),

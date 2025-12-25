@@ -6,7 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 // Change this to your machine's IP if running on real device
 // Android Emulator uses 10.0.2.2. iOS uses 127.0.0.1.
-const String baseUrl = 'http://10.0.2.2:8000';
+const String baseUrl = 'http://127.0.0.1:8000';
 
 class ApiService {
   Future<List<dynamic>> search(String query) async {
