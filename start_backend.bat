@@ -2,7 +2,7 @@
 cd /d "%~dp0"
 echo Starting Moosic Backend Server...
 echo Host: %COMPUTERNAME%
-echo IP should be: #replace it with your own ip (Ensure your Wi-Fi matches this) #use only for test thhis will make your running devices as server
+echo IP should be: #replace it with your own ip and add your base url ip in the api_service.dart file by default it is local (Ensure your Wi-Fi matches this) #use only for test thhis will make your running devices as server
 echo.
 
 cd backend
