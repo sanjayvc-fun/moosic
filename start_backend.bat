@@ -2,7 +2,7 @@
 cd /d "%~dp0"
 echo Starting Moosic Backend Server...
 echo Host: %COMPUTERNAME%
-echo IP should be: 10.18.55.54 (Ensure your Wi-Fi matches this)
+echo IP should be: #replace it with your own ip (Ensure your Wi-Fi matches this) #use only for test thhis will make your running devices as server
 echo.
 
 cd backend
